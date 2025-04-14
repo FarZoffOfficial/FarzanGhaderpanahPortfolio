@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <header>
+        <div class="container header-content">
+            <div class="logo">H.</div>
+            <nav>
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Works</a>
+                <a href="#">Journey</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="header-icons">
+                <span class="search-icon">&#128269;</span>
+                <span class="menu-icon">&#9776;</span>
+            </div>
+        </div>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Short intro about your background, interests, and goals.</p>
-  </section>
+    <main class="container">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Rosalind<br>William</h1>
+                <div class="role">
+                    <span class="title">UX Engineer</span>
+                    <h2>Based in Netherland,<br>I'm developer and<br>graphic designer.</h2>
+                </div>
+                <p class="description">It's certainly no way to get noticed in today's marketplace. Quality content marketing is what it takes to make a modern brand truly shine.</p>
+                <div class="contact-info">
+                    <p>P: +32 (0)1 88 87 08 12</p>
+                    <p>E: rosart@hexbo.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">TW</a>
+                    <a href="#">BE</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80" alt="Profile">
+                <div class="accent-circle"></div>
+            </div>
+        </div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Project Title</h3>
-      <p>Description of what it does, tools used, and a link to the repo or live site.</p>
-      <a href="https://github.com/yourusername/project">View on GitHub</a>
-    </div>
-    <!-- Add more projects -->
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile">yourprofile</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
+        <section class="about-section">
+            <span class="section-label">About Me</span>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>You can't use up creativity.<br>The more you use, the more<br>you have in your signifant mind.</h2>
+                    <p>Does any industry face a more complex audience journey and marketing sales process than B2B technology? Consider the number of people who influence a sale, the length of the decision-making cycle, the competing interests of the people who purchase, implement, manage, and use the technology. It's a lot meaningful content here.</p>
+                    <div class="experience">
+                        <span class="number">30</span>
+                        <span class="text">Years Of<br>Experience</span>
+                    </div>
+                </div>
+                <div class="query-section">
+                    <h2>Any Type Of Query<br>& Discussion.</h2>
+                    <p>Let's talk with me</p>
+                    <a href="mailto:info@hexbo.com" class="email-link">
+                        info@hexbo.com
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
-

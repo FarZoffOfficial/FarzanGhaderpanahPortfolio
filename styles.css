@@ -218,23 +218,6 @@ nav a:hover {
     transform: translateX(0.5rem);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav {
-        display: none;
-    }
-
-    .hero-section,
-    .about-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
-
-    .hero-content h1 {
-        font-size: 3rem;
-    }
-}
-
 /* Services Page Styles */
 .services-hero {
     text-align: center;
@@ -318,8 +301,30 @@ nav a:hover {
     transform: translateX(5px);
 }
 
-/* Responsive adjustments */
+/* Resume Page Styles */
+.resume-container {
+    padding: 2rem 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .hero-section,
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
     .services-hero h1 {
         font-size: 2.5rem;
     }
